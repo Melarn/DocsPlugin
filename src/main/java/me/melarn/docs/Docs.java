@@ -27,7 +27,7 @@ public final class Docs extends JavaPlugin implements Listener {
         getCommand("help").setExecutor(new HelpCommand());
 //        getCommand("donate").setExecutor(new DonateCommand());
 //        new change-test
-
+//
 
     }
 
