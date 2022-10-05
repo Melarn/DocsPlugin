@@ -1,0 +1,17 @@
+name: Docs
+version: '${project.version}'
+main: me.melarn.docs.Docs
+api-version: 1.19
+author: Melarn
+description: Custom help command
+commands:
+  help:
+    description: Custom help command
+    aliases:
+      - docs
+      - documentation
+      - website
+  donate:
+    description: Man you are dead
+    aliases:
+      - don
