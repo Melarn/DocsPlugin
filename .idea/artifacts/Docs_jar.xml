@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Docs:jar">
+    <output-path>$USER_HOME$/Desktop/Purpur/plugins</output-path>
+    <root id="archive" name="Docs.jar">
+      <element id="module-output" name="Docs" />
+    </root>
+  </artifact>
+</component>
