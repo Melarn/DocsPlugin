@@ -1,3 +1,3 @@
 # DocsPlugin
 
-A simle docs plugin!
+A simle docs plugin for projectventure!
