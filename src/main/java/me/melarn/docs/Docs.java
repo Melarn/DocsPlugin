@@ -3,7 +3,6 @@ package me.melarn.docs;
 //import me.melarn.docs.Commands.DonateCommand;
 
 import me.melarn.docs.Commands.HelpCommand;
-import me.melarn.docs.Listeners.onBlockBreak;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

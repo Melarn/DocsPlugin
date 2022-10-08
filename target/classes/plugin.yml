@@ -11,7 +11,3 @@ commands:
       - docs
       - documentation
       - website
-  donate:
-    description: Man you are dead
-    aliases:
-      - don
