@@ -10,10 +10,10 @@ import org.jetbrains.annotations.NotNull;
 public class HelpCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
-        if (!(sender instanceof Player player)){
-          sender.sendMessage("You are not player");
-          return true;
-        }else
+        if (!(sender instanceof Player player)) {
+            sender.sendMessage("You are not player");
+            return true;
+        } else
             player.sendMessage(ChatColor.GRAY + "О сервере - " + ChatColor.RESET + "docs.projectventure.tk");
         return true;
     }

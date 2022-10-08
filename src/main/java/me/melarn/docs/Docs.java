@@ -1,6 +1,7 @@
 package me.melarn.docs;
 
 //import me.melarn.docs.Commands.DonateCommand;
+
 import me.melarn.docs.Commands.HelpCommand;
 import me.melarn.docs.Listeners.onBlockBreak;
 import org.bukkit.Bukkit;
@@ -22,16 +23,7 @@ public final class Docs extends JavaPlugin implements Listener {
 
         instance = this;
 
-        getServer().getPluginManager().registerEvents(new onBlockBreak(), this);
         getLogger().info("The plugin has started");
         getCommand("help").setExecutor(new HelpCommand());
-//        getCommand("donate").setExecutor(new DonateCommand());
-//        new change-test
-//
-
-    }
-
-    public static Plugin getInstance() {
-        return instance;
     }
 }
