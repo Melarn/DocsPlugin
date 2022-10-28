@@ -3,11 +3,12 @@ version: '${project.version}'
 main: me.melarn.docs.Docs
 api-version: 1.19
 author: Melarn
-description: Custom help command
+description: Info about server
 commands:
-  help:
+  docs:
     description: Custom help command
     aliases:
-      - docs
       - documentation
       - website
+  help:
+    description: Help command

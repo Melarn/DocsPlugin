@@ -15,7 +15,7 @@ public class HelpCommand implements CommandExecutor {
             return true;
         } else
             player.sendMessage(ChatColor.BLUE + "Вся информация о сервере: ");
-            player.sendMessage(ChatColor.RESET + "docs.projectventure.tk");
+            player.sendMessage("docs.projectventure.tk");
         return true;
     }
 }

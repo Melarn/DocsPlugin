@@ -14,7 +14,7 @@ public class DocsCommand implements CommandExecutor {
             sender.sendMessage("You are not player");
             return true;
         } else
-            player.sendMessage(ChatColor.BLUE + "Доступные команды - " + ChatColor.RESET + "docs.projectventure.tk/o-servere/o-komandakh");
+            player.sendMessage(ChatColor.BLUE + "Доступные команды: " + ChatColor.RESET + "docs.projectventure.tk/o-servere/o-komandakh");
         return true;
     }
 }
