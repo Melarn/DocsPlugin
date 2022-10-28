@@ -14,7 +14,7 @@ public class HelpCommand implements CommandExecutor {
             sender.sendMessage("You are not player");
             return true;
         } else
-            player.sendMessage(ChatColor.GRAY + "О сервере - " + ChatColor.RESET + "docs.projectventure.tk");
+            player.sendMessage(ChatColor.BLUE + "О сервере - " + ChatColor.RESET + "docs.projectventure.tk/o-servere/o-komandakh");
         return true;
     }
 }
