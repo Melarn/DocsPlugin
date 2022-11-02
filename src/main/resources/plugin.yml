@@ -12,3 +12,7 @@ commands:
       - website
   help:
     description: Help command
+  voice:
+    aliases:
+      - plasmovoice
+      - voicechat
